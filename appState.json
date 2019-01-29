@@ -1,0 +1,86 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "00c55e81-f3a3-45d6-9fc4-79ffe9944ca2": {
+        "id": "00c55e81-f3a3-45d6-9fc4-79ffe9944ca2",
+        "parent": null,
+        "name": "testlambdanotfounderror",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "eb746c4e-dc2f-4463-9322-74def71cbbb2",
+          "83913021-694c-49de-a9c2-fda3476bb85e"
+        ],
+        "isRemovable": false,
+        "filePath": "testlambdanotfounderror"
+      },
+      "eb746c4e-dc2f-4463-9322-74def71cbbb2": {
+        "id": "eb746c4e-dc2f-4463-9322-74def71cbbb2",
+        "parent": "00c55e81-f3a3-45d6-9fc4-79ffe9944ca2",
+        "name": "lambda.js",
+        "type": "LAMBDA_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testlambdanotfounderror/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "triggers": [],
+        "config": {
+          "runtime": "nodejs8.10",
+          "timeout": 60,
+          "memory": 128
+        }
+      },
+      "83913021-694c-49de-a9c2-fda3476bb85e": {
+        "id": "83913021-694c-49de-a9c2-fda3476bb85e",
+        "parent": "00c55e81-f3a3-45d6-9fc4-79ffe9944ca2",
+        "name": "new.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testlambdanotfounderror/new.js",
+        "code": "<script>\r\n  document.getElementById(\"demo\").innerHTML = err.message;\r\n</script>",
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "00c55e81-f3a3-45d6-9fc4-79ffe9944ca2",
+    "openFiles": [
+      "eb746c4e-dc2f-4463-9322-74def71cbbb2",
+      "83913021-694c-49de-a9c2-fda3476bb85e"
+    ],
+    "currentFileId": "83913021-694c-49de-a9c2-fda3476bb85e",
+    "resources": {},
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    },
+    "lambdaId": "eb746c4e-dc2f-4463-9322-74def71cbbb2"
+  },
+  "PROJECT_META": {
+    "projectName": "testlambdanotfounderror",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1548746778308
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "testlambdanotfounderror",
+      "url": "https://github.com/Kumudikatest/testlambdanotfounderror"
+    }
+  }
+}

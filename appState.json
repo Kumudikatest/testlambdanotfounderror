@@ -23,7 +23,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "testlambdanotfounderror/new.js",
-        "code": "<script>\r\n  document.getElementById(\"demo\").innerHTML = err.message;\r\n</script>",
+        "code": "<script>\r\n  document.getElementById(\"demo\").innerHTML = err.message;\r\n  //test\r\n</script>",
         "triggers": []
       },
       "7a6ecba2-a04c-43db-837a-aa52e82c8547": {
@@ -44,16 +44,13 @@
         }
       }
     },
-    "deletedFiles": [
-      "testlambdanotfounderror/lambda.js",
-      "testlambdanotfounderror/lambda2.js"
-    ],
+    "deletedFiles": [],
     "rootNode": "00c55e81-f3a3-45d6-9fc4-79ffe9944ca2",
     "openFiles": [
       "83913021-694c-49de-a9c2-fda3476bb85e",
       "7a6ecba2-a04c-43db-837a-aa52e82c8547"
     ],
-    "currentFileId": "7a6ecba2-a04c-43db-837a-aa52e82c8547",
+    "currentFileId": "83913021-694c-49de-a9c2-fda3476bb85e",
     "resources": {},
     "envVariables": [
       {
@@ -77,7 +74,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1548746927324
+    "lastSave": 1548747749411
   },
   "VCS_STATE": {
     "provider": "GitHub",
